@@ -1,0 +1,3 @@
+x from 'package'
+{ x } from 'package'
+{ x, y } from 'package'

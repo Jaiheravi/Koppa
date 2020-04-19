@@ -1,0 +1,3 @@
+public x = 'abc'
+y = 'private definition'
+public z = 'another public definition'

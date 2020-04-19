@@ -1,0 +1,10 @@
+const fun = x => x * x;
+const fun = x => y => x + y;
+const fun = x(2);
+const fun = x(a);
+const fun = x(2)(3);
+const fun = x(2)(3)(4);
+const fun = (z)((y)(x(2)));
+const fun = (z)((y)(x(1)(2)(3)));
+const fun = (z => z + 3)((y => y * 2)(x(1)));
+module.exports = {};

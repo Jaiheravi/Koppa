@@ -1,0 +1,31 @@
+-- Numbers
+x = 1
+
+-- Strings
+x = 'abc'
+
+-- Regular expressions
+x = /regex/
+
+-- Identifiers
+x = y
+
+-- Boolean Values
+x = T
+x = F
+
+-- Empty Values
+x = Null
+x = Undefined
+
+-- Records
+x = {
+  a: x, -- Regular entry
+  s, -- Shorthand entry
+  q: a => b + c -- Function definition
+}
+y = x.a
+
+-- Lists
+x = [1, 2, 3, 4]
+y = x[a 1]

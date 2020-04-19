@@ -1,0 +1,13 @@
+x = a + b + c
+  where
+    a = 1,
+    b = 2,
+    c = 3
+
+x = a + b where a = 3, b = 1
+
+x = y 2
+  where y = x => x + 2
+
+public x = y 2
+  where y = x => x + 2

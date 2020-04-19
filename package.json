@@ -1,0 +1,32 @@
+{
+  "name": "koppa",
+  "version": "0.1.0",
+  "description": "A small functional programming language",
+  "main": "src/index.js",
+  "bin": {
+    "koppa": "src/bin.js"
+  },
+  "scripts": {
+    "build": "nearleyc src/grammar.ne -o src/grammar.js",
+    "start": "chokidar \"**/*.ne\" \"**/*.kpp\" -c \"npm run build && npm test\"",
+    "test": "npm run build && node ./tests/index.js tests/cases"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaiheravi/Koppa.git"
+  },
+  "keywords": [],
+  "author": "Jaime Hernández <contact@jaime.one>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jaiheravi/Koppa/issues"
+  },
+  "homepage": "https://github.com/Jaiheravi/Koppa#readme",
+  "dependencies": {
+    "chokidar-cli": "^2.0.0",
+    "mkdirp": "^0.5.1",
+    "moo": "^0.5.0",
+    "nearley": "^2.18.0",
+    "recursive-readdir": "^2.2.2"
+  }
+}

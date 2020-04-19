@@ -1,0 +1,21 @@
+-- Number operations
+x = 1 + 2 * 3 / 4
+
+-- Grouping
+x = a + (1 * 4)
+
+-- Logic operations
+x = a == b
+x = a > b
+x = a < b
+x = a <= b
+x = a >= b
+x = a && b
+x = a || b
+x = a != b
+
+-- Local definitions
+x = a && b
+  where
+    a = 1 + 2,
+    b = if q == w then 1 else 3

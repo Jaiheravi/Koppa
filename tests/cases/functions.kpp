@@ -1,0 +1,36 @@
+-- Function definition
+f = x => x * x
+
+-- Definition of curried functions
+f = x y => x + y
+
+-- Function Application
+f = x 2
+f = x a
+
+-- Application of curried functions
+f = x 2 3
+f = x 2 3 4
+
+-- Function Composition
+f = x 2 |> y |> z
+
+-- Function composition in multiple lines
+f = x 1 2 3
+  |> y
+  |> z
+
+-- Function composition with lambda functions
+f = x 1
+  |> y => y * 2
+  |> z => z + 3
+
+-- Return record
+f = x => {
+  a: x,
+  b,
+  c
+}
+
+-- Return list
+f = a b c => [a, b, c]
